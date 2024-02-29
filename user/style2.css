@@ -1,0 +1,165 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav .navbar-brand {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.navbar .navbar-extra a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: rgb(27, 107, 255);
+}
+
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+.navbar .navbar-nav a:hover {
+  color: rgb(27, 107, 255);
+}
+
+/* Detail Kategori */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&family=Roboto:wght@500;700;900&display=swap");
+
+.detail {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.product-div {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  border-radius: 3px;
+  column-gap: 10px;
+}
+
+.product-div-left {
+  padding: 20px;
+}
+
+.product-div-right {
+  padding: 20px;
+}
+
+.img-container img {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.hover-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.hover-container div {
+  border: 2px solid rgba(40, 98, 255, 0.7);
+  padding: 1rem;
+  border-radius: 3px;
+  margin: 0 4px 8px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-container div:hover {
+  border-color: rgb(255, 24, 16) !important;
+}
+
+.hover-container div img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.product-div-right span {
+  display: block;
+}
+
+.product-name {
+  font-size: 26px;
+  margin-bottom: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 24px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.product-rating span {
+  margin-right: 6px;
+}
+
+.product-description {
+  font-weight: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  opacity: 0.9;
+  margin-top: 22px;
+}
+
+.judul {
+  padding-top: 5rem;
+}
+
+.section-header h1 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .product-div {
+    grid-template-columns: 100%;
+  }
+  .product-div-right {
+    text-align: center;
+  }
+  .product-rating {
+    justify-content: center;
+  }
+  .product-description {
+    max-width: 400;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn-groups button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

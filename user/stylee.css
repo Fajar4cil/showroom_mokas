@@ -1,0 +1,36 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav .navbar-brand {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.navbar .navbar-extra a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: rgb(27, 107, 255);
+}
+
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+.navbar .navbar-nav a:hover {
+  color: rgb(27, 107, 255);
+}
+
+.container .row {
+  padding-top: 3rem;
+}
+
+.section-header h1 {
+  font-weight: bolder;
+  font-size: 30px;
+}
